@@ -90,7 +90,10 @@ You'll need to use some type of collaborative software that will enable you both
 Sample Readme (delete the above when you're ready to submit, and modify the below so with your links and descriptions)
 ---
 
-## Your Web Application Title
+## Find your zodiac sign!
+
+My project takes in a user first name, last name, and date of birth to find their zodiac sign.
+ 
 Include a very brief summary of your project here. Be sure to include the CSS positioning technique you used, and any required instructions to use your application.
 
 ## Technical Achievements
