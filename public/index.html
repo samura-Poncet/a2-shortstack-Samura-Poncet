@@ -5,14 +5,38 @@
     <meta charset='utf-8' />
     <script src='js/main.js'></script>
     <link rel='stylesheet' href='css/main.css' />
-    
+ 
+      
     <!-- get rid of favicon error -->
     <link rel='icon' href='data:;base64,iVBORw0KGgo=' />
   </head>
   <body>
-    <form>
-      <input type='text' id='yourname' value='your name here'>
-      <button>submit</button>
-    </form>
+    <header>
+    <h1> What is my Zodiac Sign?</h1>
+
+      <p> Discover your zodiac sign based on your birthday!</p>
+      </header>
+
+
+    <main>
+      <section>
+        <h2> Enter your date on birth</h2>
+        <form id="zodiacForm">
+          <label for="fname"> First Name: </label>
+          <input type="text" id="fname" name="firstName" required>
+          <br>
+          <label for="Lname"> Last Name: </label>
+          <input type="text" id="lname" name="lastName" required>
+          <br>
+          <label for="birthday"> Birthday:  </label>
+          <input type="date" id="birthday" name="birthday" required>
+
+          <button type="submit"> Find my Zodiac Sign</button>
+          </form>
+
+          <div id = "result"></div> 
+          </section>
+          </main>
+  
   </body>
 </html>
